@@ -1,0 +1,79 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+h1 {
+    margin: 20px 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.content p{
+   text-indent: 15px;
+   padding: 14px 0px;
+}
+#montserrat{
+    background-color: blue;
+    color:#fff;
+    text-align: right;
+    font-family: Montserrat;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.header{
+    background-color: orange;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.form {
+    position: relative;
+    height: 80vh;
+}
+#courier {
+    background-color: black;
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    padding: 10px;
+}
+.form-card {
+    width: 300px ;
+    background-color: lightblue;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 20px;
+}
+input[type='text'],input[type='email'],input[type='number']{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px;
+}
+button {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+a {
+    text-decoration: none;
+}
